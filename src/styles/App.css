@@ -1,0 +1,23 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.post{
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__body {
+    max-width: 650px;
+}
