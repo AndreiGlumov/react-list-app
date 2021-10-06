@@ -8,22 +8,26 @@
     width: 800px;
 }
 
-.post{
+.post {
     display: flex;
     padding: 15px;
     border: 2px solid teal;
-    box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
     border-radius: 5px;
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
 }
 
-.post__body {
-    max-width: 650px;
+.post__btns {
+    /*display: flex;*/
 }
 
-.page__wrapper{
+.post__body {
+    max-width: 600px;
+}
+
+.page__wrapper {
     margin-top: 30px;
     display: flex;
 }
@@ -62,13 +66,13 @@
     margin-left: auto;
 }
 
-.navbar__links  a{
+.navbar__links a {
     text-decoration: none;
     background: lightblue;
     padding: 15px;
     color: teal;
 }
 
-.navbar__links  a:hover{
+.navbar__links a:hover {
     background: lightcyan;
 }
