@@ -12,7 +12,7 @@ const Navbar = () => {
   }
   return (
     <div className="navbar">
-      <button className="btn btn-sm btn-dark" onClick={logout}>Выйти</button>
+      <button className="btn btn-sm btn-dark" onClick={logout}>Logout</button>
       <div className="navbar__links">
         <Link to="/about">About</Link>
         <Link to="/posts">Posts</Link>
